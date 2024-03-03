@@ -644,6 +644,14 @@ video {
   height: 100svh;
 }
 
+.h-\[120vh\] {
+  height: 120vh;
+}
+
+.h-\[20vh\] {
+  height: 20vh;
+}
+
 .w-\[10\%\] {
   width: 10%;
 }
