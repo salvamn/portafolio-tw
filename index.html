@@ -15,7 +15,8 @@
 <body class="font-quickmono">
 
 
-    <nav class="w-full h-[8svh] flex flex-row p-2 pl-8 pr-8 border-b-2 border-gray-50 shadow-transparent max-sm:border-gray-100">
+    <nav
+        class="w-full h-[8svh] flex flex-row p-2 pl-8 pr-8 border-b-2 border-gray-50 shadow-transparent max-sm:border-[1px] max-sm:border-gray-100 max-sm:shadow-sm">
         <div class="flex items-center w-[20%] h-full max-sm:w-full max-sm:justify-center">
             <h2 class="text-lg font-medium text-gray-700">Salvador Mellado Núñez</h2>
         </div>
@@ -33,12 +34,16 @@
     </nav>
 
 
-    <div id="sobremi"  class="w-full h-[60svh] flex flex-col items-center p-10 max-sm:p-1 max-sm:h-[92svh]">
-        <div class="w-[80%] h-full flex flex-row items-center justify-center max-sm:w-full max-sm:h-full max-sm:flex-col-reverse max-sm:justify-center">
-            <div class="h-[80%] w-[30%] flex items-center justify-center max-sm:w-[20svh] max-sm:h-[20svh] max-sm:hidden">
-                <img src="src/img/foto.jpg" alt="" class="inline-block shrink-0 rounded-[.95rem] w-[200px] h-[250px] max-sm:h-[20svh] msx-sm:w-[20svh]">
+    <div id="sobremi" class="w-full h-[60svh] flex flex-col items-center p-10 max-sm:p-1 max-sm:h-[92svh]">
+        <div
+            class="w-[80%] h-full flex flex-row items-center justify-center max-sm:w-full max-sm:h-full max-sm:flex-col-reverse max-sm:justify-center">
+            <div
+                class="h-[80%] w-[30%] flex items-center justify-center max-sm:w-[20svh] max-sm:h-[20svh] max-sm:hidden">
+                <img src="src/img/foto.jpg" alt=""
+                    class="inline-block shrink-0 rounded-[.95rem] w-[200px] h-[250px] max-sm:h-[20svh] msx-sm:w-[20svh]">
             </div>
-            <div class="w-[60%] h-[90%] flex flex-col justify-between p-2 max-sm:h-full max-sm:w-full max-sm:justify-between">
+            <div
+                class="w-[60%] h-[90%] flex flex-col justify-between p-2 max-sm:h-full max-sm:w-full max-sm:justify-between">
                 <div class="text-sm mt-2">
                     <p class="text-xl mb-4">Bienvenido a mi Portafolio</p>
                     <p>
@@ -386,13 +391,14 @@
 
 
 
-    <div id="habilidades"  class="w-full h-[100vh] flex flex-col items-center justify-center max-sm:p-2">
+    <div id="habilidades" class="w-full h-[100vh] flex flex-col items-center justify-center max-sm:p-2">
         <div class="w-[80%] h-[90%] flex flex-col justify-center items-center mx-sm:w-full max-sm:h-full">
             <div class="h-[10%] mb-4 max-sm:flex max-sm:items-end max-sm:mb-0">
                 <p class="text-xl">Habilidades</p>
             </div>
 
-            <div id="contenedor-habilidades" class="w-[50%] h-[80%] flex flex-col max-sm:h-[90%] max-sm:w-full max-sm:justify-center">
+            <div id="contenedor-habilidades"
+                class="w-[50%] h-[80%] flex flex-col max-sm:h-[90%] max-sm:w-full max-sm:justify-center">
                 <div class="m-1">
                     <h3>HTML</h3>
                     <span class="bar rounded-sm">
@@ -454,7 +460,32 @@
     </div>
 
 
-<!-- 
+    <div id="contacto"
+        class="w-full h-[100vh] flex flex-col items-center justify-center bg-gray-100 bg-center bg-cover">
+        <div class="w-[80%] h-[90%] flex flex-col justify-center items-center max-sm:w-full max-sm:h-full">
+            <form action="https://formspree.io/f/meqykwlp" method="POST"
+                class="w-[40%] h-[80%] flex flex-col justify-center shadow-sm p-8 rounded-md bg-no-repeat  max-sm:w-full max-sm:h-full">
+
+                <img src="src/img/Idea.png" alt=""
+                    class="h-[10%] w-[10%] items-center mb-4  max-sm:w-[5svh] max-sm:h-[5svh]">
+                <h2 class="text-xl text-center mb-2">Contáctame</h2>
+                <p class="mb-4">¿Tienes una idea excepcional o necesitas una solución tecnológica para tu empresa?</p>
+                <label class="text-lg mb-4">
+                    Tu email:
+                    <input type="email" name="email" class="w-full border rounded-sm p-2">
+                </label>
+                <label class="text-lg mb-4 flex flex-col h-[40%]">
+                    Tu mensaje:
+                    <textarea name="message" class="w-full border rounded-sm p-2 h-[90%]"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit" class="bg-blue-400 p-2 text-white rounded">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- 
     <div id="experiencia" class="w-full h-svh flex flex-col items-center justify-center bg-gray-100">
 
     </div> -->
@@ -462,7 +493,12 @@
 
 
 
-    <footer>
+    <footer class="w-full p-8 h-[50vh]">
+
+        <div class="w-full h-full border-t-2 border-gray-50 flex flex-col justify-end items-center">
+            <h2 class="text-lg font-medium text-gray-700">Salvador Mellado Núñez</h2>
+            <span class="text-sm">©todos los derechos reservados</span>
+        </div>
 
     </footer>
 
