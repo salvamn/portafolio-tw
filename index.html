@@ -22,13 +22,13 @@
         </div>
 
         <div class="flex flex-row items-center justify-end w-[80%] h-full text-gray-600 text-sm max-sm:hidden">
-            <a href="#" class="ml-4">inicio</a>
-            <a href="#sobremi" class="ml-4">sobre mí</a>
-            <a href="#proyectos" class="ml-4">proyectos</a>
-            <a href="#habilidades" class="ml-4">mis habilidades</a>
-            <a href="#experiencia" class="ml-4">experiencia</a>
-            <a href="#contacto" class="ml-4">contacto</a>
-            <a href="#informacion-personal" class="ml-4">información personal</a>
+            <a href="#" class="hover:font-bold p-2">inicio</a>
+            <a href="#sobremi" class="hover:font-bold p-2">sobre mí</a>
+            <a href="#proyectos" class="hover:font-bold p-2">proyectos</a>
+            <a href="#habilidades" class="hover:font-bold p-2">mis habilidades</a>
+            <a href="#experiencia" class="hover:font-bold p-2">experiencia</a>
+            <a href="#contacto" class="hover:font-bold p-2">contacto</a>
+            <a href="#informacion-personal" class="hover:font-bold p-2">información personal</a>
         </div>
 
     </nav>
@@ -391,14 +391,20 @@
 
 
 
-    <div id="habilidades" class="w-full h-[100vh] flex flex-col items-center justify-center max-sm:p-2">
+    <div id="habilidades" class="w-full h-[100vh] p-4 flex flex-col items-center justify-center max-sm:p-2">
+        <div class="w-full p-4 flex flex-row">
+            <div id="btn-iconos"  class="w-[10%] text-center rounded-b border-l border-gray-200 border-b border-r cursor-pointer active:scale-[0.98] select-none">
+                <span>barras</span>
+            </div>
+        </div>
+
         <div class="w-[80%] h-[90%] flex flex-col justify-center items-center mx-sm:w-full max-sm:h-full">
             <div class="h-[10%] mb-4 max-sm:flex max-sm:items-end max-sm:mb-0">
                 <p class="text-xl">Habilidades</p>
             </div>
 
-            <div id="contenedor-habilidades"
-                class="w-[50%] h-[80%] flex flex-col max-sm:h-[90%] max-sm:w-full max-sm:justify-center">
+            <div id="contenedor-habilidades-barra"
+                class="hidden w-[50%] h-[80%] flex-col max-sm:h-[90%] max-sm:w-full max-sm:justify-center">
                 <div class="m-1">
                     <h3>HTML</h3>
                     <span class="bar rounded-sm">
@@ -453,6 +459,46 @@
                         <span class="vue"></span>
                     </span>
                 </div>
+                <div class="m-1">
+                    <h3>MySql</h3>
+                    <span class="bar rounded-sm">
+                        <span class="mysql"></span>
+                    </span>
+                </div>
+            </div>
+
+
+            <div id="contenedor-habilidades-iconos" class=" w-[50%] h-[80%] flex flex-row flex-wrap justify-between max-sm:h-[90%] max-sm:w-full max-sm:justify-center">
+                <div class="w-[100px] h-[100px] flex justify-center items-center m-4">
+                    <img src="src/img/Html 5.png" class="w-[80px] h-[80px] hover:w-full hover:h-full">
+                </div>
+                <div class="w-[100px] h-[100px] flex justify-center items-center m-4">
+                    <img src="src/img/CSS3.png" class="w-[80px] h-[80px] hover:w-full hover:h-full">
+                </div>
+                <div class="w-[100px] h-[100px] flex justify-center items-center m-4">
+                    <img src="src/img/JavaScript.png" class="w-[80px] h-[80px] hover:w-full hover:h-full">
+                </div>
+                <div class="w-[100px] h-[100px] flex justify-center items-center m-4">
+                    <img src="src/img/Python.png" class="w-[80px] h-[80px] hover:w-full hover:h-full">
+                </div>
+                <div class="w-[100px] h-[100px] flex justify-center items-center m-4">
+                    <img src="src/img/Flask.png" class="w-[80px] h-[80px] hover:w-full hover:h-full">
+                </div>
+                <div class="w-[100px] h-[100px] flex justify-center items-center m-4">
+                    <img src="src/img/Django.png" class="w-[80px] h-[80px] hover:w-full hover:h-full">
+                </div>
+                <div class="w-[100px] h-[100px] flex justify-center items-center m-4">
+                    <img src="src/img/Tailwindcss.png" class="w-[80px] h-[80px] hover:w-full hover:h-full">
+                </div>
+                <div class="w-[100px] h-[100px] flex justify-center items-center m-4">
+                    <img src="src/img/MySQL Logo.png" class="w-[80px] h-[80px] hover:w-full hover:h-full">
+                </div>
+                <div class="w-[100px] h-[100px] flex justify-center items-center m-4">
+                    <img src="src/img/Git.png" class="w-[80px] h-[80px] hover:w-full hover:h-full">
+                </div>
+                <div class="w-[100px] h-[100px] flex justify-center items-center m-4">
+                    <img src="src/img/Vue js.png" class="w-[80px] h-[80px] hover:w-full hover:h-full">
+                </div>
             </div>
 
 
@@ -502,6 +548,10 @@
 
     </footer>
 
+
+
+
+    <script src="index.js"></script>
 
 </body>
 
