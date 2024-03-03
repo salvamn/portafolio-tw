@@ -6,6 +6,9 @@ module.exports = {
     fontFamily: {
       'mono': ['ui-monospace', 'SFMono-Regular'],
       'quick': ["Quicksand", "sans - serif"],
+    },
+    future: {
+      hoverOnlyWhenSupported: true
     }
   },
   plugins: [],
